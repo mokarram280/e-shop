@@ -1,26 +1,29 @@
 import React from 'react';
 import Heading from '../Shared/Heading';
+import Blog1 from '/src/assets/blog/blog-1.jpg';
+import Blog2 from '/src/assets/blog/blog-2.jpg';
+import Blog3 from '/src/assets/blog/blog-3.jpg';
 
 const BlogData = [
     {
         title: 'How to choose perfect smartwatch',
         subtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque unde dolores necessitatibus dolorum itaque soluta!',
         published: 'Jan 20, 2025 by Dilshed',
-        img:'/src/assets/blog/blog-1.jpg',
+        img: Blog1,
         aosDelay: '0'
     },
     {
         title: 'How to choose perfect gadget',
         subtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque unde dolores necessitatibus dolorum itaque soluta!',
         published: 'Jan 20, 2025 by Satya',
-        img:'/src/assets/blog/blog-2.jpg',
+        img: Blog2,
         aosDelay: '200'
     },
     {
         title: 'How to choose perfect VR headset',
         subtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque unde dolores necessitatibus dolorum itaque soluta!',
         published: 'Jan 20, 2025 by Sahir',
-        img:'/src/assets/blog/blog-3.jpg',
+        img: Blog3,
         aosDelay: '400'
     }
 ];

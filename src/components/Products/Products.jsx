@@ -1,32 +1,40 @@
 import React from 'react';
 import Heading from '../Shared/Heading';
 import ProductCard from './ProductCard';
+import Product1 from '/src/assets/product/p-1.jpg';
+import Product2 from '/src/assets/product/p-2.jpg';
+import Product3 from '/src/assets/product/p-3.jpg';
+import Product4 from '/src/assets/product/p-4.jpg';
+import Product5 from '/src/assets/product/p-5.jpg';
+import Product6 from '/src/assets/product/p-7.jpg';
+import Product7 from '/src/assets/product/p-9.jpg';
+import Product8 from '/src/assets/product/p-5.jpg';
 
 const ProductData = [
     {
         id: 1,
-        img: '/src/assets/product/p-1.jpg',
+        img: Product1,
         title: 'Boat Headphone',
         price: '120',
         aosDelay: '0'
     },
     {
         id: 2,
-        img: '/src/assets/product/p-2.jpg',
+        img: Product2,
         title: 'Rocky Mountain',
         price: '420',
         aosDelay: '100'
     },
     {
         id: 3,
-        img: '/src/assets/product/p-3.jpg',
+        img: Product3,
         title: 'Goggles',
         price: '320',
         aosDelay: '200'
     },
     {
         id: 4,
-        img: '/src/assets/product/p-4.jpg',
+        img: Product4,
         title: 'Printed',
         price: '220',
         aosDelay: '300'
@@ -36,28 +44,28 @@ const ProductData = [
 const ProductData2 = [
     {
         id: 1,
-        img: '/src/assets/product/p-5.jpg',
+        img: Product5,
         title: 'Boat Headphone',
         price: '120',
         aosDelay: '400'
     },
     {
         id: 2,
-        img: '/src/assets/product/p-7.jpg',
+        img: Product6,
         title: 'Rocky Mountain',
         price: '420',
         aosDelay: '500'
     },
     {
         id: 3,
-        img: '/src/assets/product/p-9.jpg',
+        img: Product7,
         title: 'Goggles',
         price: '320',
         aosDelay: '600'
     },
     {
         id: 4,
-        img: '/src/assets/product/p-5.jpg',
+        img: Product8,
         title: 'Printed',
         price: '220',
         aosDelay: '700'
