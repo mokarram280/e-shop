@@ -1,5 +1,8 @@
 import React from 'react';
 import Button from '../Shared/Button';
+import Img1 from '/src/assets/category/earphone.png';
+import Img2 from '/src/assets/category/watch.png';
+import Img3 from '/src/assets/category/macbook.png';
 
 const Category = () => {
   return (
@@ -19,7 +22,7 @@ const Category = () => {
                             <Button text='Browse' bgColor={'bg-primary'} textColor={'text-white'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/earphone.png" alt="earphone" className='w-[320px] absolute bottom-0' />
+                    <img src={Img1} alt="earphone" className='w-[320px] absolute bottom-0' />
                 </div>
                 {/* second col */}
                 <div
@@ -34,7 +37,7 @@ const Category = () => {
                             <Button text='Browse' bgColor={'bg-white'} textColor={'text-brandYellow'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/watch.png" alt="watch" className='w-[320px] absolute -right-4 lg:top-[40px]' />
+                    <img src={Img2} alt="watch" className='w-[320px] absolute -right-4 lg:top-[40px]' />
                 </div>
                 {/* third col */}
                 <div
@@ -49,7 +52,7 @@ const Category = () => {
                             <Button text='Browse' bgColor={'bg-white'} textColor={'text-primary'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/macbook.png" alt="macbook" className='w-[320px] absolute top-1/2 -translate-y-1/2 -right-0' />
+                    <img src={Img3} alt="macbook" className='w-[320px] absolute top-1/2 -translate-y-1/2 -right-0' />
                 </div>
             </div>
         </div>

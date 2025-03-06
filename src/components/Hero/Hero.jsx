@@ -3,25 +3,28 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Button from '../Shared/Button';
+import Image1 from '/src/assets/hero/headphone.png';
+import Image2 from '/src/assets/hero/vr.png';
+import Image3 from '/src/assets/hero/macbook.png';
 
 const HeroSlide = [
     {
         id: 1,
-        image: './src/assets/hero/headphone.png',
+        image: Image1,
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Headphone',
     },
     {
         id: 2,
-        image: './src/assets/hero/vr.png',
+        image: Image2,
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Virtual',
     },
     {
         id: 3,
-        image: './src/assets/hero/macbook.png',
+        image: Image3,
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Laptops',

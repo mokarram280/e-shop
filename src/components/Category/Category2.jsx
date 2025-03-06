@@ -1,5 +1,8 @@
 import React from 'react';
 import Button from '../Shared/Button';
+import Img4 from '/src/assets/category/gaming.png';
+import Img5 from '/src/assets/category/vr.png';
+import Img6 from '/src/assets/category/speaker.png';
 
 const Category2 = () => {
   return (
@@ -19,7 +22,7 @@ const Category2 = () => {
                             <Button text='Browse' bgColor={'bg-primary'} textColor={'text-white'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/gaming.png" alt="gaming" className='w-[300px] absolute top-1/2 -translate-y-1/2 -right-0' />
+                    <img src={Img4} alt="gaming" className='w-[300px] absolute top-1/2 -translate-y-1/2 -right-0' />
                 </div>
                 {/* second col */}
                 <div 
@@ -34,7 +37,7 @@ const Category2 = () => {
                             <Button text='Browse' bgColor={'bg-white'} textColor={'text-brandGreen'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/vr.png" alt="vertual" className='w-[250px] absolute bottom-0' />
+                    <img src={Img5} alt="vertual" className='w-[250px] absolute bottom-0' />
                 </div>
                 {/* third col */}
                 <div 
@@ -49,7 +52,7 @@ const Category2 = () => {
                             <Button text='Browse' bgColor={'bg-white'} textColor={'text-brandBlue'} />
                         </div>
                     </div>
-                    <img src="/src/assets/category/speaker.png" alt="speaker" className='w-[200px] absolute bottom-0 right-0' />
+                    <img src={Img6} alt="speaker" className='w-[200px] absolute bottom-0 right-0' />
                 </div>
             </div>
         </div>
