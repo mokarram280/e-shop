@@ -7,21 +7,21 @@ import Button from '../Shared/Button';
 const HeroSlide = [
     {
         id: 1,
-        image: '/src/assets/hero/headphone.png',
+        image: './src/assets/hero/headphone.png',
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Headphone',
     },
     {
         id: 2,
-        image: '/src/assets/hero/vr.png',
+        image: './src/assets/hero/vr.png',
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Virtual',
     },
     {
         id: 3,
-        image: '/src/assets/hero/macbook.png',
+        image: './src/assets/hero/macbook.png',
         subtitle: 'Beats Solo',
         title: 'Wireless',
         title2: 'Laptops',
